@@ -1,13 +1,7 @@
 //
 // Created by faces on 08/02/2021.
 //
-
-#include <vector>
-#include <string>
-#include <sstream>
-#include <FaceDetector.h>
-#include <opencv4/opencv2/opencv.hpp>
-
+#include "FaceDetector.h"
 
 FaceDetector::FaceDetector() :  confidence_threshold(0.5), input_image_height(300), input_image_width(300), scale_factor(1.0), mean_values({104.0, 177.0, 123.0}) {
 

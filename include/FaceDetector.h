@@ -5,7 +5,12 @@
 #ifndef OPENCV_EYES_FACEDETECTOR_H
 #define OPENCV_EYES_FACEDETECTOR_H
 
-#include <opencv4/opencv2/dnn.hpp>
+#include <vector>
+#include <string>
+#include <sstream>
+
+#include "opencv4/opencv2/opencv.hpp"
+#include "opencv4/opencv2/dnn.hpp"
 
 class FaceDetector {
 
